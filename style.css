@@ -4,20 +4,20 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.gg{
+.green-box1{
     background-color:#7ebc12;
+    height: 900px;
+    position: relative;
 }
 .logo{
     font-weight:700 ;
-    font-size: 38px;
-    width: 250px;
+    font-size: 44px;
     color: white;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    
 }
 .tabs{
     color: white;
     display: flex;
+    padding-top: 10px;
 }
 .search{
     color: red;
@@ -25,10 +25,13 @@
 }
 .register{
     background-color: red;
+    color: white;
+    font-size: 18px;
     width: 120px;
     height: 40px;
     border: none;
     border-radius: 8px;
+    margin-left: 15px;
 }
 .intro{
     color: white;
@@ -77,26 +80,30 @@
 }
 .IMGG{
     /* background-color: aquamarine; */
-    width: 400px;
-    margin-left:900px;
-    margin-top: -200px;
     position: absolute;
+    right: 300px;
+    top: 250px;
 }
 .hider-upper{
-    margin-top: 20px;
+    /* background-color: aquamarine; */
     width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 .header{
     width: 80%;
     margin: auto;
-    background-color: cyan;
+    /* background-color: cyan; */
     padding-top: 25px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .tab{
     margin-left: 25px;
+    padding-top: 10px;
 }
 .footer{
     position: relative;
