@@ -17,7 +17,7 @@
 .tabs{
     color: white;
     display: flex;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 .search{
     color: red;
@@ -26,9 +26,9 @@
 .register{
     background-color: red;
     color: white;
-    font-size: 18px;
-    width: 120px;
-    height: 40px;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
     border: none;
     border-radius: 8px;
     margin-left: 15px;
@@ -102,8 +102,9 @@
 }
 
 .tab{
+    font-size: 20px;
     margin-left: 25px;
-    padding-top: 10px;
+    padding-top: 13px;
 }
 .footer{
     position: relative;
