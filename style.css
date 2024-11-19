@@ -274,3 +274,74 @@
 .foot-button{
     margin: 0px 15px;
 }
+/* PART2 */
+.world{
+    background-image: url(./images/bg-domain.png);
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-size:60%;
+    background-position: center;
+    padding: 190px;
+}
+
+.HH{
+    text-align: center;
+}
+
+.H2{
+    /* background-color: aqua; */
+    margin-top: -180px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.P_shearch{
+    /* background-color: aqua; */
+    color: gray;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.k{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.k1{
+    width: 70px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+/* TKHARBI9a */
+        .k1{
+            width: 70px;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        .k1{
+            width: 70px;
+            margin: auto;
+            margin-bottom: 10px;
+            color: #7ebc12;
+        }
+
+        .k2{
+            width: 100px;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+
+        .HHinput{
+            border-radius: 5px;
+            border-collapse: collapse;
+            border-top: ;
+            left: 45%;
+            margin-bottom: 30px;
+
+        }
+
