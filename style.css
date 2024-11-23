@@ -66,6 +66,12 @@
     margin-bottom: 30px;
  }
  
+.intro_paragraph{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
 .pricing-banner {
     /* background-color: #8cc63f; */
     color: white;
@@ -76,19 +82,21 @@
 }
 .text-starting {
     font-size: 20px;
-    margin: 0;
-
+    padding-top: 15px;
+    position: relative;
+    top: 25px;
 }
 .price {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
-    margin: 0;
-    margin-left: 80px;
+    margin-left: 90px;
+
 }
 .per-month {
-    font-size: 12px;
+    font-size: 14px;
 }
 .start-button{
+    text-decoration: none;
     display: block;
     background-color: red;
     color: white;
@@ -97,7 +105,7 @@
     padding: 20px;
     border-radius: 10px;
     margin-top: 30px;
-    border: none;
+    position: absolute;
 }
 .IMGG{
     /* background-color: aquamarine; */
@@ -336,8 +344,8 @@
     bottom: 100px;
     left: 5%;
     width: 90%;
-    height: 2px;
-    background-color: #f2f2f2;
+    height: 1px;
+    background-color: #f2f2f281;
     
 }
 
@@ -359,7 +367,9 @@
     display: flex;
 }
 
-.foot-button{
+.foot-button a{
+    text-decoration: none;
+    color: #f2f2f2;
     margin: 0px 15px;
 }
 
