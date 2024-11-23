@@ -20,19 +20,35 @@
     color: white;
     display: flex;
 }
-.search{
+.tabs a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.tabs a:hover{
+    color: red;
+    transition: 300ms;
+}
+.search a{
     color: red;
     font-size: larger;
 }
 .register{
+    position: relative;
     background-color: red;
-    color: white;
-    font-size: 20px;
     width: 150px;
     height: 50px;
-    border: none;
     border-radius: 8px;
-    margin-left: 15px;
+    margin-left: 20px;
+}
+.register div{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 33px;
+    top: 13px;
 }
 
 .intro{
@@ -189,24 +205,81 @@
         right: 134px;
     }
 
+.greater-than{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: monospace;
+}
+
 .footer-blocks{
-    background-color: red;
+    /* background-color: red; */
     width: 66%;
     display: flex;
+    justify-content: space-around;
     padding: 0px 50px;
+    position: absolute;
+    bottom: 200px;
 }
 
 .footer-about-us{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 30%;
 }
 
+.about-us-list{
+    list-style: none;
+    line-height: 30px;
+}
+.about-us-list h3{
+    color: #f2f2f2;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-us-list li{
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
 .footer-our-services{
-    background-color: beige;
+    /* background-color: beige; */
+}
+
+.our-services-list{
+    list-style: none;
+    line-height: 30px;
+}
+.our-services-list h3{
+    color: #f2f2f2;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.our-services-list li{
+    color: #f2f2f2;
+    font-size: 18px;
 }
 
 .footer-touch{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+}
+
+.touch-list{
+    list-style: none;
+    line-height: 30px;
+}
+.touch-list h3{
+    color: #f2f2f2;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.touch-list li{
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+.footer-socials{
+    display: flex;
+    justify-content: space-around;
 }
 
 .message{
@@ -271,6 +344,11 @@
 .foot-button{
     margin: 0px 15px;
 }
+
+.footer-content{
+    width: 100%;
+    margin: auto;
+}
 /* PART2 */
 .world{
     margin-top: 120px;
@@ -297,6 +375,7 @@
     margin: auto;
     margin-bottom: 30px;
     font-size: 20px;
+    line-height: 28px;
 }
 
 .k{
