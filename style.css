@@ -491,3 +491,96 @@
             display: flex;
             justify-content: space-around;
         }
+/* part 3 */
+.DIV_3{
+    /* background-color: aqua; */
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+.H1_1{
+    /* background-color: aqua; */
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 30px;
+
+}
+
+.P_part3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: aqua; */
+    width: 55%;
+    color: gray;
+}
+
+.k3{
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+.k4{
+    width: 90px;
+    margin-bottom: 5px;
+}
+
+.k5{
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.div_part3{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    /* background-color: aqua; */
+}
+
+.Experts{
+    text-align: center;
+    background-color:  rgb(239, 239, 239);
+    padding: 30px;
+    border-radius:8px;
+    width:210px;
+    /* height:140px; */
+    
+
+}
+.Experts_name{
+    font-size: small;
+    margin-top: 5px;
+}
+
+.Clients{
+    text-align: center;
+    background-color: rgb(239, 239, 239);
+    padding: 30px;
+    border-radius:8px;
+    width:210px;
+    /* height:140px; */
+}
+.Clients_name{
+    font-size: small;
+    margin-top: 5px;
+}
+
+.Projects{
+    text-align: center;
+    background-color: rgb(239, 239, 239);
+    padding: 30px;
+    border-radius:8px;
+    width:210px;
+    /* height:140px; */
+}
+.Projects_name{
+    font-size: small;
+    margin-top: 5px;
+}
+
+.img_world{
+    /* background-color: aqua; */
+    width: 40%;
+    margin-left:65%;
+    margin-top: -40%;
+}
