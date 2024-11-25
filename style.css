@@ -110,8 +110,8 @@
 .IMGG{
     /* background-color: aquamarine; */
     position: absolute;
-    right: 90px;
-    top: 90px;
+    right: 250px;
+    top: 150px;
 }
 
 .img1{
@@ -495,8 +495,10 @@
 .DIV_3{
     /* background-color: aqua; */
     width: 80%;
+    height: 800px;
     margin: auto;
     padding: 30px;
+    position: relative;
 }
 .H1_1{
     /* background-color: aqua; */
@@ -581,6 +583,7 @@
 .img_world{
     /* background-color: aqua; */
     width: 40%;
-    margin-left:65%;
-    margin-top: -40%;
+    position: absolute;
+    top: 100px;
+    right: -50px;
 }
