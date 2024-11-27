@@ -658,3 +658,20 @@
     font-size: 58px;
     margin-top: 100px;
 }
+
+.servers{
+    width: 90%;
+    margin: auto;
+}
+.shared_server{
+    width: 50%;
+    padding: 0px;
+}
+.cardat{
+    width: 100%;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.carda{
+    width: 40%;
+}
