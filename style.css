@@ -691,7 +691,9 @@
     position: relative;
 }
 .review{
-    border-radius: 10px;
+    border-radius: 15px;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
 }
 .quote{
     width: 60px;
@@ -699,5 +701,5 @@
     text-align: center;
     position: absolute;
     top: -25px;
-    left: 220px;
+    left: 40px;
 }
