@@ -319,6 +319,7 @@
     position: absolute;
     top: 250px;
     right: 180px;
+    transform: scale(80%);
 }
 
 .msg-input{
