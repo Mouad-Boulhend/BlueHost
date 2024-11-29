@@ -675,3 +675,29 @@
 .carda{
     width: 40%;
 }
+
+    /* Reviews */
+.review-block{
+    margin-top: 150px;
+}
+.reviews-bar{
+    width: 90%;
+    margin: auto;
+}
+
+.review-bg{
+    width: 31%;
+    border-radius: 15px;
+    position: relative;
+}
+.review{
+    border-radius: 10px;
+}
+.quote{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    top: -25px;
+    left: 220px;
+}
