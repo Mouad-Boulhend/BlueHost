@@ -62,7 +62,7 @@
 
 .H1{
     font-weight: 700;
-    font-size: 48px;
+    font-size: 68px;
     margin-bottom: 30px;
  }
  
@@ -148,13 +148,13 @@
 .header{
     width: 80%;
     /* background-color: cyan; */
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    top: 30px;
-    z-index: 2;
+    margin: auto;
+    z-index: 1000;
+    background-color: #7ebc12;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .tab{
@@ -701,4 +701,11 @@
     border-radius: 15px;
     width: 23%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.team-hover{
+    background-color: #7ebc12;
+    transition: 150ms ease-in-out;
+}
+.team-hover:hover{
+    background-color: #ff0f10;
 }
