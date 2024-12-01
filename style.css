@@ -116,7 +116,7 @@
 .IMGG{
     /* background-color: aquamarine; */
     position: absolute;
-    right: 250px;
+    right: 10%;
     top: 150px;
 }
 
@@ -329,7 +329,7 @@
     padding: 30px;
     position: absolute;
     top: 250px;
-    right: 180px;
+    right: 10%;
     transform: scale(80%);
 }
 
