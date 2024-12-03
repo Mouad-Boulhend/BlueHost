@@ -5,31 +5,51 @@
     box-sizing: border-box;
 }
 .color1-bg{
-    background-color: #BBBFCA !important; 
+    background-color: #1880b8 !important; 
 }
 .color1-txt{
-    color: #BBBFCA !important;
+    color: #1880b8 !important;
 }
 
 .color2-bg{
-    background-color: #495464 !important; 
+    background-color: #2539B5 !important; 
 }
 .color2-txt{
-    color: #495464 !important;
+    color: #2539B5 !important;
 }
 
 .color-main{
-    background-color: #BBBFCA !important;
+    background-color: #1880b8 !important;
+}
+
+
+.upup{
+    width: 50px;
+    height: 50px;
+    background-color: #0e4a6b !important;
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    z-index: 800;
+}
+
+.containerm{
+    width: 85%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .green-box1{
+    background: rgb(27,72,98);
+background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
     width: 100%;
     height: 750px;
     position: relative;
 }
 .logo{
     font-weight:700 ;
-    font-size: 32px;
+    font-size: 2rem;
     color: white;
     /* background-color: aqua; */
 }
@@ -45,7 +65,7 @@
     color: #f2f2f2;
 }
 .tabs a:hover{
-    color: #495464;
+    color: #2539b5;
     transition: 300ms;
 }
 .search a{
@@ -61,15 +81,24 @@
 }
 .register div{
     color: white;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: center;
+}
+.plan_price .dollar{
+    font-size: 1.5rem;
+}
+.plan_price .pricee{
+    font-size: 3rem;
+}
+.plan_price .munth{
+    font-size: 1rem;
 }
 
 .dropdown-menu a{
     color: #5a5a5a;
 }
 .dropdown-menu a:hover{
-    color: #ff0f10;
+    color: #2539b5;
 }
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -80,18 +109,18 @@
     /* background-color: aqua; */
     width: 650px;
     position: absolute;
-    top: 190px;
-    left: 200px;
+    top: 120px;
+    left: 150px;
 }
 
 .H1{
     font-weight: 700;
-    font-size: 68px;
+    font-size: 3rem;
     margin-bottom: 30px;
  }
  
 .intro_paragraph{
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 30px;
     font-weight: 500;
 }
@@ -105,25 +134,25 @@
     display: inline-block;
 }
 .text-starting {
-    font-size: 18px;
+    font-size: 1rem;
     padding-top: 15px;
     position: relative;
     top: 25px;
 }
 .price {
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: bold;
     margin-left: 90px;
 
 }
 .per-month {
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 .start-button{
     text-decoration: none;
     display: block;
     color: white;
-    font-size: 19px;
+    font-size: 1.2rem;
     width: 250px;
     padding: 15px;
     border-radius: 10px;
@@ -176,16 +205,16 @@
     align-items: center;
     margin: auto;
     z-index: 1000;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
 .tab{
-    font-size: 20px;
+    font-size: 1.2rem;
     margin-left: 25px;
     padding-top: 10px;
 }
 .tab button{
-    font-size: 20px;
+    font-size: 1.2rem;
     padding-top: 0px;
 }
 
@@ -217,14 +246,14 @@
     .subscribe h2{
         margin-bottom: 30px;
         color: white;
-        font-size: 28px;
+        font-size: 2rem;
     }
 
     .sub-email{
         width: 570px;
         height: 75px;
         padding-left: 15px;
-        font-size: 18px;
+        font-size: 1rem;
         border-radius: 10px;
         border: none;
     }
@@ -233,14 +262,14 @@
         height: 50px;
         border-radius: 10px;
         border: none;
-        font-size: 18px;
+        font-size: 1rem;
         color: white;
         position: relative;
         right: 134px;
     }
 
 .greater-than{
-    font-size: 22px;
+    font-size: 1.2rem;
     font-weight: 900;
     font-family: monospace;
 }
@@ -265,18 +294,18 @@
 }
 .about-us-list h3{
     color: #f2f2f2;
-    font-size: 24px;
+    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
 .about-us-list li a{
     text-decoration: none;
     color: #f2f2f2;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .footer-blocks a:hover{
-    font-size: 19px;
+    font-size: 1.2rem;
     transition: 300ms;
 }
 
@@ -291,18 +320,18 @@
 }
 .our-services-list h3{
     color: #f2f2f2;
-    font-size: 24px;
+    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 .our-services-list li a{
     text-decoration: none;
     color: #f2f2f2;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .footer-touch{
     /* background-color: blueviolet; */
-    width: 25%;
+    width: 30%;
 }
 
 .touch-list{
@@ -311,12 +340,12 @@
 }
 .touch-list h3{
     color: #f2f2f2;
-    font-size: 24px;
+    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 .touch-list li{
     color: #f2f2f2;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .footer-socials{
@@ -343,7 +372,7 @@
     padding: 30px;
     position: absolute;
     top: 250px;
-    right: 10%;
+    right: 5%;
     transform: scale(80%);
 }
 
@@ -354,7 +383,7 @@
     border: none;
     border-radius: 10px;
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .send-message{
@@ -362,7 +391,7 @@
     height: 50px;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 1.2rem;
     border-radius: 10px;
 }
 
@@ -382,7 +411,7 @@
     align-items: center;
     padding: 0px 50px;
     color: white;
-    font-size: 17px;
+    font-size: 1rem;
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -422,7 +451,7 @@
     text-align: center;
     margin-bottom: 30px;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .P_shearch{
@@ -432,7 +461,7 @@
     text-align: center;
     margin: auto;
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 28px;
 }
 
@@ -471,7 +500,7 @@
             border-radius: 10px;
             width: 100%;
             height: 70px;
-            font-size: 20px;
+            font-size: 1rem;
             padding-left: 25px;
             margin: auto;
             margin-top: 30px;
@@ -488,7 +517,7 @@
             width: 100px;
             height: 50px;
             color: #f2f2f2;
-            font-size: 20px;
+            font-size: 1rem;
             position: absolute;
             top: 40px;
             right: 10px;
@@ -499,14 +528,14 @@
 
         .block{
             width: 100px;
-            font-size: 22px;
+            font-size: 1.2rem;
             text-align: center;
             font-weight: 200;
             line-height: 35px;
         }
 
         .domaines{
-            font-size: 25px;
+            font-size: 1.5rem;
             font-weight: 600;
             text-align: center;
         }
@@ -518,6 +547,10 @@
             margin-top: 20px;
             display: flex;
             justify-content: space-around;
+        }
+
+        .reviews-nav{
+            display: none;
         }
 /* part 3 */
 .DIV_3{
@@ -532,13 +565,13 @@
     /* background-color: aqua; */
     margin-top: 150px;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     margin-bottom: 30px;
 
 }
 
 .P_part3{
-    font-size: 18px;
+    font-size: 1rem;
     margin-top: 30px;
     margin-bottom: 30px;
     /* background-color: aqua; */
@@ -579,15 +612,15 @@
 
 }
 .Experts_name{
-    font-size: small;
+    font-size: 1rem;
     margin-top: 5px;
 }
 
 .img_world{
     /* background-color: aqua; */
-    width: 40%;
+    width: 500px;
     position: absolute;
-    top: 100px;
+    top: 180px;
     right: -50px;
 }
 
@@ -607,12 +640,14 @@
     margin: auto;
 }
 .our_hosting h1{
-    font-size: 58px;
+    font-size: 3rem;
 }
 .our_hosting p{
-    font-size: 18px;
+    font-size: 1rem;
 }
-
+.list-group-item{
+    font-size: 1.2rem;
+}
 
 .barA{
     height: 2px;
@@ -622,7 +657,7 @@
 }
 .barB{
     height: 2px;
-    background-color: #7ebc12;
+    background-color: #164863;
     width: 180px;
     margin: auto;
 }
@@ -650,7 +685,7 @@
 }
 
 .red{
-    background-color: #ff0f10;
+    background-color: #427D9D;
 }
 
 
@@ -661,7 +696,7 @@
     margin: auto;
 }
 .sharedVS h1{
-    font-size: 58px;
+    font-size: 3rem;
     margin-top: 100px;
 }
 
@@ -725,9 +760,146 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .team-hover{
-    background-color: cyan;
+    background-color: #164863;
     transition: 150ms ease-in-out;
 }
 .team-hover:hover{
-    background-color: fuchsia;
+    background-color: #427D9D;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    .containerm{
+        width: 100%;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .tab{
+        font-size: 1rem;
+        margin-left: 25px;
+        padding-top: 10px;
+    }
+    .tab button{
+        font-size: 1rem;
+    }
+    .register div{
+        font-size: 1rem;
+    }
+    .register{
+        width: 120px;
+    }
+    .intro{
+        top: 80px;
+        left: 60px;
+    }
+    .IMGG{
+        right: 20px;
+        top: 250px;
+    }
+
+    .DIV_3{
+        position: relative;
+        right: 80px;
+    }
+    .img_world{
+        width: 400px;
+        top: 250px;
+        right: -120px;
+    }
+    .team-welcome{
+        width: 35px;
+    }
+    .Experts h1{
+        font-size: 1.5rem;
+    }
+    .Experts{
+        padding: 10px;
+    }
+    .list-group-item{
+        font-size: 1rem;
+    }
+    .plan_price .pricee{
+        font-size: 2rem;
+    }
+    .bbg .card-title{
+        font-size: 1.7rem;
+    }
+    .bbg .card-text{
+        font-size: 1rem;
+    }
+    .team{
+        width: 93%;
+    }
+
+    .subscribe{
+        transform: scale(80%);
+        bottom: 180px;
+        left: 30px;
+    }
+    .footer-about-us{
+        width: 33%;
+    }
+    .footer-our-services{
+        width: 33%;
+    }
+    .footer-touch{
+        width: 33%;
+    }
+    .footer-blocks{
+        bottom: 350px;
+        width: 80%;
+    }
+    .msg-input{
+        height: 40px;
+    }
+    .message{
+        transform: scale(70%);
+        top: 400px;
+        left: 20px;
+    }
+    .footer{
+        border: none;
+    }
+
+    .rrn{
+        display: none;
+    }
+    .rrv{
+        width: 60%;
+    }
+
+    .reviews-bar{
+        position: relative;
+    }
+    .reviews-nav{
+        display: flex;
+        width: 100px;
+        height: 30px;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        bottom: -50px;
+    }
+    .reviews-nav .a{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #2539b5;
+    }
+    .reviews-nav .b{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #b9b9b9;
+    }
+    .reviews-nav .c{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #b9b9b9;
+    }
 }
