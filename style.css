@@ -927,7 +927,7 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
         width: 95%;
         font-size: 1.5rem;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .header{
         flex-direction: column;
@@ -1216,6 +1216,10 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
     }
     .footer-touch{
         width: 100%;
+    }
+    .mode{
+        position: absolute;
+        right: 52%;
     }
     
     body{
