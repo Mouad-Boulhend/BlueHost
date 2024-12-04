@@ -908,18 +908,19 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
 
 @media screen and (max-width: 768px){
     .containerm{
-        width: 50%;
+        width: 100%;
         overflow: hidden;
         position: absolute;
+        left: 0;
     }
     .green-box1{
-        /* width: 70%; */
+        height: 600px;
     }
     .footer-greenbox{
         /* width: 70%; */
     }
     .logo{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .header{
         flex-direction: column;
@@ -942,12 +943,36 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
         width: 120px;
     }
     .intro{
-        top: 80px;
-        left: 60px;
+        transform: scale(60%);
+        top: 0;
+        left: -110px;
+    }
+    .intro_paragraph{
+        width: 400px;
+        font-size: 1.5rem;
+    }
+    .img{
+        width: 350px;
     }
     .IMGG{
-        right: 20px;
-        top: 250px;
+        right: 5px;
+        top: 350px;
+    }
+    .H2{
+        font-size: 2rem;
+    }
+    .P_shearch{
+        width: 90%;
+    }
+    .search_bar{
+        width: 90%;
+    }
+    .domaines_blocks{
+        flex-direction: column;
+        width: 80%;
+    }
+    .ww{
+        width: 100% !important; 
     }
 
     .DIV_3{
