@@ -1217,10 +1217,7 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
     .footer-touch{
         width: 100%;
     }
-    .mode{
-        position: absolute;
-        left: 12em;
-    }
+    
     
     body{
         margin: 0px !important;
