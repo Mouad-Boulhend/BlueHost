@@ -552,6 +552,9 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
         .reviews-nav{
             display: none;
         }
+        .team-nav{
+            display: none;
+        }
 /* part 3 */
 .DIV_3{
     /* background-color: aqua; */
@@ -909,6 +912,7 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
 @media screen and (max-width: 768px){
     .containerm{
         width: 100%;
+        padding: 0;
         overflow: hidden;
         position: absolute;
         left: 0;
@@ -917,7 +921,7 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
         height: 600px;
     }
     .footer-greenbox{
-        /* width: 70%; */
+        height: 1000px;
     }
     .logo{
         font-size: 1.2rem;
@@ -927,11 +931,16 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
     }
     .tabs{
         flex-direction: column;
+        width: 100%;
     }
     .tab{
         font-size: 1rem;
-        margin-left: 25px;
+        margin-left: 0;
         padding-top: 10px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 8px;
+        border-top: 1px solid #1b4a64;
     }
     .tab button{
         font-size: 1rem;
@@ -941,6 +950,7 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
     }
     .register{
         width: 120px;
+        margin: auto;
     }
     .intro{
         transform: scale(60%);
@@ -958,7 +968,13 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
         right: 5px;
         top: 350px;
     }
+    .img_world{
+        display: none;
+    }
     .H2{
+        font-size: 2rem;
+    }
+    .H1_1{
         font-size: 2rem;
     }
     .P_shearch{
@@ -976,8 +992,66 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
     }
 
     .DIV_3{
+        width: 100%;
         position: relative;
-        right: 80px;
+        margin: auto;
+        right: 0;
+    }
+    .div_part3{
+        width: 100%;
+    }
+    .our_hosting{
+        width: 85%;
+    }
+    .our_hosting h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .team p{
+        font-size: 1rem !important;
+    }
+    .cardaaat{
+        flex-direction: column;
+    }
+    .bbg{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .sharedVS{
+        width: 90%;
+    }
+    .sharedVS h1{
+        font-size: 2rem;
+    }
+    .sharedVS p{
+        font-size: 1rem !important;
+    }
+    .servers{
+        flex-direction: column;
+    }
+    .shared_server{
+        width: 100%;
+        border: none;
+        padding: 0px !important;
+    }
+    .cardat{
+        padding: 0;
+        border: none;
+    }
+    .carda{
+        width: 45%;
+    }
+    .carda i{
+        font-size: 50px !important;
+    }
+    .carda h2{
+        font-size: 1.2rem;
+    }
+    .carda p{
+        font-size: 1rem !important;
+    }
+    .rrv{
+        width: 100% !important;
     }
     .img_world{
         width: 400px;
@@ -1010,9 +1084,12 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
     }
 
     .subscribe{
-        transform: scale(80%);
-        bottom: 180px;
-        left: 30px;
+        transform: scale(60%);
+        bottom: 40px;
+        left: -110px;
+    }
+    .sub-email{
+        width: 70%;
     }
     .footer-about-us{
         width: 33%;
@@ -1031,12 +1108,21 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
         height: 40px;
     }
     .message{
-        transform: scale(70%);
-        top: 400px;
-        left: 20px;
+        z-index: 2;
+        transform: scale(60%);
+        top: 620px;
+        left: -70px;
     }
     .footer{
         border: none;
+    }
+    .footer-foot{
+        flex-direction: column;
+        transform: scale(80%);
+        bottom: 15px;
+    }
+    .copyright{
+        text-align: center;
     }
 
     .rrn{
@@ -1076,6 +1162,59 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
         border-radius: 50%;
         background-color: #b9b9b9;
     }
+    .bbg-team{
+        width: 80%;
+    }
+    .tmn{
+        display: none;
+    }
+    .team-block{
+        position: relative;
+    }
+    .team-nav{
+        display: block;
+        display: flex;
+        width: 100px;
+        height: 30px;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        bottom: -50px;
+    }
+    .team-nav .a{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #2539b5;
+    }
+    .team-nav .b{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #b9b9b9;
+    }
+    .team-nav .c{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #b9b9b9;
+    }
+    .footer-blocks{
+        flex-direction: column;
+        transform: scale(80%);
+        position: absolute;
+        bottom: 250px;
+    }
+    .footer-about-us{
+        width: 100%;
+    }
+    .footer-our-services{
+        width: 100%;
+    }
+    .footer-touch{
+        width: 100%;
+    }
+    
     body{
         margin: 0px !important;
         box-sizing: border-box;
