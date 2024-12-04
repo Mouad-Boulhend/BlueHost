@@ -909,7 +909,7 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .containerm{
         width: 100%;
         padding: 0;
@@ -1219,7 +1219,7 @@ background: linear-gradient(0deg, rgba(27,72,98,1) 0%, rgba(24,128,184,1) 100%);
     }
     .mode{
         position: absolute;
-        right: 52%;
+        left: 12em;
     }
     
     body{
